@@ -19,7 +19,7 @@
         {{-- <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet"> --}}
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap" rel="stylesheet">
 
-
+        <title>Bible Encouragements</title>
         <!-- Styles -->
         <link href="{{ asset('css/app.css') }}" rel="stylesheet">
         <link href="{{ asset('css/custom.css') }}" rel="stylesheet">
