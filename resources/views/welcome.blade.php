@@ -4,8 +4,6 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
-
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;600&display=swap" rel="stylesheet">
         <!-- Scripts -->
@@ -21,6 +19,7 @@
 
         <title>Bible Encouragements</title>
         <!-- Styles -->
+        <link rel="icon" href="{{ URL::asset('/css/favicon-96x96.png') }}" type="image/x-icon"/>
         <link href="{{ asset('css/app.css') }}" rel="stylesheet">
         <link href="{{ asset('css/custom.css') }}" rel="stylesheet">
     </head>
