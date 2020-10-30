@@ -27,7 +27,7 @@
         <div class="container-fluid h-100">
             <div class="row align-items-center h-100">
                 <div class="col-md-12 ">
-                    <div class="card text-center mx-auto align" style="width: 500px !important">
+                    <div class="card text-center mx-auto align" style="max-width: 500px !important">
                         <div class="card-body">
                             <img src="{{asset('/storage/be.jpg')}}" alt="malasakit-logo" height="120px">
                                 <p class="text-muted font-italic">...THIS SITE WILL BE ENCOURAGING SOON...</p>
