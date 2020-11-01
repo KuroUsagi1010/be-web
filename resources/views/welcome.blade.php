@@ -29,8 +29,15 @@
                 <div class="col-md-12 ">
                     <div class="card text-center mx-auto align" style="max-width: 500px !important">
                         <div class="card-body">
-                            <img src="{{asset('/storage/be.jpg')}}" alt="malasakit-logo" height="120px">
-                                <p class="text-muted font-italic">...THIS SITE WILL BE ENCOURAGING SOON...</p>
+                                <img src="{{asset('/storage/be.jpg')}}" alt="malasakit-logo" height="120px">
+                                <div>
+                                    <h3>{{ $vod->reference }}</h3>
+                                    @php
+                                       $verses_one =  str_replace("<span data-number","<sup data-number",$vod->content);
+                                       $verses_clean =  str_replace("span>","sup>",$verses_one );
+                                    @endphp
+                                {!!  $verses_clean !!}
+                                </div>
                                 <div class="d-flex flex-row justify-content-center px-3">
                                     <a class="mx-2" href="https://www.facebook.com/biblencourage" style="text-decoration: none !important; color: #6f0021; font-size:24px" ><i class="fab fa-facebook fa-lg"></i></a>
                                     <a class="mx-2" href=" https://twitter.com/biblencourage" style="text-decoration: none !important; color: #6f0021; font-size:24px" ><i class="fab fa-twitter fa-lg"></i></a>
