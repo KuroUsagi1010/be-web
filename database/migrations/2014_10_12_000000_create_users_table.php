@@ -6,10 +6,7 @@ use Illuminate\Support\Facades\Schema;
 
 class CreateUsersTable extends Migration
 {
-    public function boot()
-    {
-        Schema::defaultStringLength(191);
-    }
+
 
     public function up()
     {
